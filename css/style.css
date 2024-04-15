@@ -1,0 +1,165 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #8B4513; /* Brown */
+    margin: 0;
+    padding: 0;
+    background-color: #FFE4B5; /* Moccasin */
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+h1 {
+    text-align: center;
+    color: #8B4513; /* Brown */
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.plato {
+    background-color: #FAF0E6; /* Linen */
+    border: 2px solid #8B4513; /* Brown */
+    border-radius: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.plato img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.plato .contenido {
+    padding: 20px;
+}
+
+.plato h2 {
+    color: #8B4513; /* Brown */
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.plato p {
+    margin-bottom: 10px;
+}
+
+.navbar {
+    background-color: #8B4513; /* Marrón */
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+}
+
+.navbar-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar-item {
+    margin-left: 20px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-item:hover {
+    text-decoration: underline;
+}
+
+.navbar-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #8B4513; /* Marrón */
+    padding: 10px;
+    z-index: 1000;
+}
+
+.navbar-item:hover .navbar-dropdown {
+    display: block;
+}
+
+.dropdown-item {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown-item:hover {
+    text-decoration: underline;
+}
+
+.icono-gluten {
+    float: right;
+    color: #8B4513; /* Brown */
+    margin-right: 400px;
+}
+@media (min-width: 768px) {
+    .container {
+        width: 70%;
+    }
+
+    .plato {
+        display: flex;
+    }
+
+    .plato img {
+        width: 50%;
+        border-radius: 10px 0 0 10px;
+    }
+
+    .plato .contenido {
+        width: 50%;
+        padding: 20px;
+    }
+    .navbar {
+        padding: 10px 20px;
+    }
+
+    .navbar-menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #8B4513; /* Marrón */
+    }
+
+    .navbar-item {
+        margin: 10px 0;
+    }
+
+    .navbar-item:hover .navbar-dropdown {
+        display: block;
+    }
+
+    .navbar-dropdown {
+        display: none;
+    }
+
+    .dropdown-item {
+        margin: 5px 0;
+    }
+}

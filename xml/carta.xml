@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <plato>
+        <nombre>Churrasco a la parrilla</nombre>
+        <imagen>churrasco.jpg</imagen>
+        <descripcion>Delicioso churrasco a la parrilla acompañado de patatas.</descripcion>
+        <gluten>false</gluten>
+        <calorias>600</calorias>
+        <precio>12.99 €</precio>
+    </plato>
+    <plato>
+        <nombre>Parrillada de mariscos</nombre>
+        <imagen>parrillada_mariscos.jpg</imagen>
+        <descripcion>Exquisita parrillada de mariscos frescos con salsa de ajo.</descripcion>
+        <gluten>false</gluten>
+        <calorias>750</calorias>
+        <precio>18.99 €</precio>
+    </plato>
+    <plato>
+        <nombre>Costillas de cerdo BBQ</nombre>
+        <imagen>costillas_bbq.jpg</imagen>
+        <descripcion>Jugosas costillas de cerdo glaseadas en salsa BBQ.</descripcion>
+        <gluten>true</gluten>
+        <calorias>800</calorias>
+        <precio>15.99 €</precio>
+    </plato>
+    <plato>
+        <nombre>Pechuga de pollo a la brasa</nombre>
+        <imagen>pechuga_pollo.jpg</imagen>
+        <descripcion>Deliciosa pechuga de pollo marinada y cocida a la brasa, acompañada de patatas.</descripcion>
+        <gluten>false</gluten>
+        <calorias>550</calorias>
+        <precio>10.99 €</precio>
+    </plato>
+    <plato>
+        <nombre>Bistec a la criolla</nombre>
+        <imagen>bistec_criolla.jpg</imagen>
+        <descripcion>Sabroso bistec a la criolla con cebolla, tomate y pimientos.</descripcion>
+        <gluten>false</gluten>
+        <calorias>700</calorias>
+        <precio>14.99 €</precio>
+    </plato>
+    <plato>
+        <nombre>Brochetas de carne y verduras</nombre>
+        <imagen>brochetas.jpg</imagen>
+        <descripcion>Brochetas de carne de res y verduras marinadas, asadas a la parrilla.</descripcion>
+        <gluten>false</gluten>
+        <calorias>650</calorias>
+        <precio>13.99 €</precio>
+    </plato>
+    <plato>
+        <nombre>Salmón a la parrilla</nombre>
+        <imagen>salmón_parrilla.jpg</imagen>
+        <descripcion>Salmón fresco a la parrilla con limón y hierbas.</descripcion>
+        <gluten>false</gluten>
+        <calorias>700</calorias>
+        <precio>16.99 €</precio>
+    </plato>
+    <plato>
+        <nombre>Pimientos rellenos de carne</nombre>
+        <imagen>pimientos_rellenos.jpg</imagen>
+        <descripcion>Pimientos rojos rellenos de carne molida y arroz.</descripcion>
+        <gluten>false</gluten>
+        <calorias>600</calorias>
+        <precio>11.99 €</precio>
+    </plato>
+    <plato>
+        <nombre>Chuletas de cordero a la parrilla</nombre>
+        <imagen>chuletas_cordero.jpg</imagen>
+        <descripcion>Jugosas chuletas de cordero marinadas y asadas a la parrilla.</descripcion>
+        <gluten>false</gluten>
+        <calorias>750</calorias>
+        <precio>17.99 €</precio>
+    </plato>
+    <plato>
+        <nombre>Entraña a la parrilla</nombre>
+        <imagen>entraña.jpg</imagen>
+        <descripcion>Deliciosa entraña de res a la parrilla.</descripcion>
+        <gluten>false</gluten>
+        <calorias>700</calorias>
+        <precio>16.99 €</precio>
+    </plato>
+    <plato>
+        <nombre>Burger BBQ</nombre>
+        <imagen>burger_bbq.jpg</imagen>
+        <descripcion>Jugosa hamburguesa de carne de res con salsa BBQ casera.</descripcion>
+        <gluten>true</gluten>
+        <calorias>850</calorias>
+        <precio>14.99 €</precio>
+    </plato>
+    <plato>
+        <nombre>Alitas de pollo picantes</nombre>
+        <imagen>alitas_picantes.jpg</imagen>
+        <descripcion>Alitas de pollo adobadas y asadas con salsa picante.</descripcion>
+        <gluten>false</gluten>
+        <calorias>600</calorias>
+        <precio>9.99 €</precio>
+    </plato>
+    <plato>
+        <nombre>Croquetas de jamón</nombre>
+        <imagen>croquetas_jamon.jpg</imagen>
+        <descripcion>Croquetas caseras de jamón ibérico con un interior cremoso y rebozado crujiente.</descripcion>
+        <gluten>true</gluten>
+        <calorias>500</calorias>
+        <precio>7.99 €</precio>
+    </plato>
+    <plato>
+        <nombre>Ensalada César con pollo a la parrilla</nombre>
+        <imagen>ensalada_cesar.jpg</imagen>
+        <descripcion>Clásica ensalada César con pollo a la parrilla.</descripcion>
+        <gluten>false</gluten>
+        <calorias>550</calorias>
+        <precio>8.99 €</precio>
+    </plato>
+    <plato>
+        <nombre>Pizza Barbacoa</nombre>
+        <imagen>pizza_bbq.jpg</imagen>
+        <descripcion>Pizza casera con salsa BBQ, pollo desmenuzado, cebolla roja, horneada a la perfección.</descripcion>
+        <gluten>true</gluten>
+        <calorias>800</calorias>
+        <precio>11.99 €</precio>
+    </plato>
+    <plato>
+        <nombre>Filete de res a la parrilla</nombre>
+        <imagen>filete_res.jpg</imagen>
+        <descripcion>Jugoso filete de res a la parrilla con patatas asadas y espárragos a la parrilla, acompañado de salsa de champiñones.</descripcion>
+        <gluten>false</gluten>
+        <calorias>750</calorias>
+        <precio>19.99 €</precio>
+    </plato>
+    <plato>
+        <nombre>Mazorca de maíz asada</nombre>
+        <imagen>mazorca_maiz.jpg</imagen>
+        <descripcion>Mazorca de maíz fresco asada a la parrilla, untada con mantequilla y espolvoreada con sal y pimienta.</descripcion>
+        <gluten>false</gluten>
+        <calorias>200</calorias>
+        <precio>5.99 €</precio>
+    </plato>
+    <plato>
+        <nombre>Costillas de ternera al estilo sureño</nombre>
+        <imagen>costillas_ternera.jpg</imagen>
+        <descripcion>Costillas de ternera tiernas y ahumadas, glaseadas en salsa barbacoa casera, acompañadas de puré de boniato y coleslaw.</descripcion>
+        <gluten>false</gluten>
+        <calorias>800</calorias>
+        <precio>18.99 €</precio>
+    </plato>
+    <plato>
+        <nombre>Barbacoa de verduras</nombre>
+        <imagen>barbacoa_verduras.jpg</imagen>
+        <descripcion>Variedad de verduras frescas a la parrilla con hierbas mediterráneas y aceite de oliva, servidas con pan tostado.</descripcion>
+        <gluten>false</gluten>
+        <calorias>400</calorias>
+        <precio>9.99 €</precio>
+    </plato>
+    <plato>
+        <nombre>Langostinos al ajillo</nombre>
+        <imagen>langostinos_ajillo.jpg</imagen>
+        <descripcion>Langostinos frescos salteados con ajo, guindilla y perejil, servidos con pan crujiente.</descripcion>
+        <gluten>false</gluten>
+        <calorias>600</calorias>
+        <precio>22.99 €</precio>
+    </plato>
+</menu>
